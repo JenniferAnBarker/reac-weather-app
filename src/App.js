@@ -8,7 +8,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Please work ok</p>
+        <p className="bg-primary">
+          Please work ok
+          <br />
+          Yes i think its working
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
