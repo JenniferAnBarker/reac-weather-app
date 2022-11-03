@@ -1,0 +1,14 @@
+.Weather-head {
+  border: 1px green solid;
+  text-align: left;
+  padding: 10px;
+}
+
+.Weather-head h2,
+.Weather-head h3 {
+  text-align: right;
+}
+
+.Weather-head ul {
+  list-style: none;
+}
