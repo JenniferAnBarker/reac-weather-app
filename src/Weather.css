@@ -1,7 +1,11 @@
 .Weather-head {
   border: 1px green solid;
+  margin-top: 10px;
   text-align: left;
   padding: 10px;
+  background-color: aliceblue;
+  color: #76aeb4;
+  text-shadow: 1px 1px #4b6f73;
 }
 
 .Weather-head h2,
