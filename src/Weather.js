@@ -1,9 +1,15 @@
 import React from "react";
 import "./Weather.css";
+import SearchEngine from "./SearchEngine";
 
 export default function Weather() {
   return (
     <div className="Weather-head">
+      <div className="row">
+        <div className="col">
+          <SearchEngine />
+        </div>
+      </div>
       <div className="row justify-content-between">
         <div className="col-sm-8">
           <div className="row">
