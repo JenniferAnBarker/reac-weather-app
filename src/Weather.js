@@ -14,6 +14,7 @@ export default function Weather() {
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
       feelsLike: Math.round(response.data.main.feels_like),
+      iconurl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
     setReady(true);
   }
@@ -41,10 +42,7 @@ export default function Weather() {
             <div className="row pt-4">
               <div className="col-sm-4">
                 <h1>
-                  <img
-                    src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-                    alt="weather icon"
-                  />
+                  <img src={weatherData.iconurl} alt="weather icon" />
                   {weatherData.temperature}
                 </h1>
               </div>
