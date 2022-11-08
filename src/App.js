@@ -9,8 +9,11 @@ function App() {
       <div className="container-fluid">
         <Weather />
         <p>
-          This project was coded by <a href="/">Jennifer Norton-Barker</a> and
-          is open sourced
+          This project was coded by{" "}
+          <a href="/" className="App-link">
+            Jennifer Norton-Barker
+          </a>{" "}
+          and is open sourced
         </p>
       </div>
     </div>

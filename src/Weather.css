@@ -1,18 +1,33 @@
-.Weather-head {
-  border: 1px green solid;
+:root {
+  --first-color: #76aeb4;
+  --second-color: #588774;
+}
+.Weather {
+  border: 1px var(--second-color) solid;
+  border-radius: 7px;
   margin-top: 10px;
   text-align: left;
-  padding: 10px;
+  padding: 30px;
   background-color: aliceblue;
-  color: #76aeb4;
+  color: var(--first-color);
   text-shadow: 1px 1px #4b6f73;
+  text-transform: capitalize;
 }
 
-.Weather-head h2,
-.Weather-head h3 {
+.Weather h2,
+.Weather h3 {
   text-align: right;
 }
 
-.Weather-head ul {
+.Weather ul {
   list-style: none;
+  font-size: larger;
+}
+
+.button {
+  background-color: var(--second-color);
+}
+
+.second-color {
+  color: var(--second-color);
 }
