@@ -31,3 +31,7 @@
 .second-color {
   color: var(--second-color);
 }
+
+.convert-btn {
+  font-size: x-large;
+}

@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="container-fluid">
-        <Weather />
+        <Weather defaultCity="london" />
         <p>
           This project was coded by{" "}
           <a href="/" className="App-link">
