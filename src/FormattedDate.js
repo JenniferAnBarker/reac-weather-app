@@ -17,9 +17,10 @@ export default function FormattedDate(props) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
+  console.log(hour);
   return (
     <div>
-      {day} {hour}:{minutes}
+      {day}, {hour}:{minutes}
     </div>
   );
 }
