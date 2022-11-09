@@ -54,9 +54,7 @@ export default function Weather(props) {
             <div className="col-2">
               <input type="submit" value="Search" className="btn button" />
             </div>
-            <div className="col-md-2">
-              <p className="second-color convert-btn">°C | °F</p>
-            </div>
+            <div className="col-md-2"></div>
           </div>
         </form>
         <SearchEngine data={weatherData} />
