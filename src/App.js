@@ -13,7 +13,7 @@ function App() {
           <a href="/" className="App-link">
             Jennifer Norton-Barker
           </a>{" "}
-          and is open sourced
+          , is open sourced and hosted on Netlify
         </p>
       </div>
     </div>

@@ -30,6 +30,8 @@
 
 .second-color {
   color: var(--second-color);
+  text-shadow: none;
+  font-weight: 750;
 }
 
 .convert-btn {
