@@ -1,6 +1,8 @@
 import React from "react";
 import FormattedDate from "./FormattedDate.js";
 import ConvertTemp from "./TemperatureConvert";
+import Icon from "./Icon";
+//<img src={props.data.iconurl} alt="weather icon" />
 
 export default function SearchEngine(props) {
   return (
@@ -10,7 +12,7 @@ export default function SearchEngine(props) {
           <div className="row align-items-end pt-4">
             <div className="col-sm-6 border">
               <div>
-                <img src={props.data.iconurl} alt="weather icon" />
+                <Icon code={props.data.icon} size={100} />
                 <ConvertTemp celsius={props.data.temperature} />
               </div>
             </div>
