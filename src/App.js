@@ -10,10 +10,25 @@ function App() {
         <Weather defaultCity="london" />
         <p>
           This project was coded by{" "}
-          <a href="/" className="App-link">
+          <a href="https://github.com/JenniferAnBarker" className="App-link">
             Jennifer Norton-Barker
           </a>{" "}
-          , is open sourced and hosted on Netlify
+          , is{" "}
+          <a
+            href="https://github.com/JenniferAnBarker/react-weather-app"
+            className="App-link"
+          >
+            {" "}
+            open sourced
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://app.netlify.com/sites/zippy-phoenix-143e11/overview"
+            className="App-link"
+          >
+            {" "}
+            Netlify{" "}
+          </a>
         </p>
       </div>
     </div>

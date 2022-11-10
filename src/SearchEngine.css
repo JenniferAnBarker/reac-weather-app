@@ -1,0 +1,36 @@
+:root {
+  --first-color: #76aeb4;
+  --second-color: #76b49b;
+  --second-color-faded: rgba(88, 135, 116, 0.5);
+}
+
+.todaysTemp {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.degrees {
+  font-weight: 400;
+  text-shadow: none;
+  font-size: 40px;
+}
+
+.mid-col-features ul {
+  list-style: none;
+  font-size: larger;
+}
+
+.response {
+  text-shadow: none;
+  font-weight: 750;
+  font-size: 25px;
+}
+
+.right-col-display {
+  text-align: right;
+}
+
+.city {
+  font-weight: 700;
+  text-decoration-line: underline;
+}

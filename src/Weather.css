@@ -1,9 +1,10 @@
 :root {
   --first-color: #76aeb4;
-  --second-color: #588774;
+  --second-color: rgb(88, 135, 116);
+  --second-color-faded: rgba(88, 135, 116, 0.5);
 }
 .Weather {
-  border: 1px var(--second-color) solid;
+  border: 3px var(--second-color-faded) ridge;
   border-radius: 7px;
   margin-top: 10px;
   text-align: left;
@@ -14,24 +15,9 @@
   text-transform: capitalize;
 }
 
-.Weather h2,
-.Weather h3 {
-  text-align: right;
-}
-
-.Weather ul {
-  list-style: none;
-  font-size: larger;
-}
-
-.button {
-  background-color: var(--second-color);
-}
-
-.second-color {
-  color: var(--second-color);
-  text-shadow: none;
-  font-weight: 750;
+.search-button {
+  background-color: var(--second-color-faded);
+  border: 1px var(--second-color-faded) solid;
 }
 
 .convert-btn {
