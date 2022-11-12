@@ -18,3 +18,9 @@
   font-weight: 500;
   color: var(--second-color);
 }
+
+@media (max-width: 900px) {
+  .App {
+    margin: 20px;
+  }
+}

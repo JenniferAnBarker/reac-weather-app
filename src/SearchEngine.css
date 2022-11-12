@@ -32,5 +32,40 @@
 
 .city {
   font-weight: 700;
-  text-decoration-line: underline;
+}
+
+@media (max-width: 800px) {
+  .right-col-display {
+    text-align: Center;
+  }
+
+  .city,
+  .city-desc {
+    font-size: 14px;
+  }
+
+  .todaysTemp,
+  .degrees {
+    font-size: 24px;
+  }
+
+  .mid-col-features {
+    font-size: 9px;
+  }
+
+  .mid-col-features li {
+    line-height: 32px;
+  }
+
+  .response {
+    font-size: 15px;
+  }
+
+  h1 {
+    padding-bottom: 20px;
+  }
+
+  .left-col {
+    padding-left: 35px;
+  }
 }

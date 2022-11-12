@@ -7,17 +7,17 @@ export default function SearchEngine(props) {
   return (
     <div>
       <div className="row mt-5">
-        <div className="col-sm-9 ">
-          <div className="row align-items-end pt-4">
-            <div className="col-sm-6 ">
-              <div>
-                <Icon code={props.data.icon} size={100} />
+        <div className="col-sm-8 ">
+          <div className="row  pt-4">
+            <div className="col mb-5 ">
+              <div className="left-col">
+                <Icon code={props.data.icon} size={60} />
                 <span className="todaysTemp"> {props.data.temperature}</span>
                 <span className="degrees">°C</span>
               </div>
             </div>
 
-            <div className="col-sm-6  mid-col-features">
+            <div className="col mb-5 mid-col-features">
               <ul>
                 <li>
                   Feels Like:{" "}
@@ -34,13 +34,14 @@ export default function SearchEngine(props) {
             </div>
           </div>
         </div>
-        <div className="col-sm-3 pt-4  right-col-display">
-          <h2 className="city">{props.data.city}</h2>
-          <h3>
+        <div className="col-sm-4 pt-4 right-col-display">
+          <h1 className="city">{props.data.city}</h1>
+          <h3 className="city-desc">
             <FormattedDate date={props.data.date} />
           </h3>
-          <h3>{props.data.description}</h3>
+          <h3 className="city-desc">{props.data.description}</h3>
         </div>
+        <hr className="mt-5" />
       </div>
     </div>
   );

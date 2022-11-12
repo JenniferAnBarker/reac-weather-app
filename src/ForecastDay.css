@@ -1,0 +1,11 @@
+@media (max-width: 900px) {
+  .forecast-temperatures {
+    font-size: 8px;
+  }
+
+  .forecast-day {
+    font-size: 10px;
+    text-shadow: none;
+    font-weight: 760;
+  }
+}

@@ -23,3 +23,10 @@
 .convert-btn {
   font-size: x-large;
 }
+
+@media (max-width: 900px) {
+  .form-control,
+  .search-button {
+    font-size: 10px;
+  }
+}
