@@ -6,6 +6,7 @@
 .Weather {
   border: 3px var(--second-color-faded) ridge;
   border-radius: 7px;
+
   margin-top: 10px;
   text-align: left;
   padding: 30px;
