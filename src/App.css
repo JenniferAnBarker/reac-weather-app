@@ -6,7 +6,8 @@
 
 .App {
   text-align: center;
-  margin: 90px;
+  margin: 70px auto;
+  max-width: fit-content;
 }
 
 .App-link {
